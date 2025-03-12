@@ -1,0 +1,66 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body{
+  background-color: #2f4f30;
+}
+
+.titulo-container{
+  padding: 10px;
+  background-color: #000;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+button{
+  background-color: #48e;
+  border: none;
+  padding: 10px;
+  font-size: clamp(1rem,2vw,3rem);
+}
+
+button:hover{
+  filter: grayscale(0.5);
+}
+
+.btn-danger{
+  background-color: #f55;
+}
+
+.row-player-container{
+  margin: 5px;
+  height: 200px;
+}
+
+.row-player-container h2{
+  display: inline-block;
+  margin: 5px 0;
+
+}
+
+.jugador-cartas{
+  padding: 10px;
+}
+
+.carta{
+  width: clamp(100px,8vw,500px);
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+}
+
+.row-computadora-container h2{
+  display: inline-block;
+  margin: 5px 0;
+}
